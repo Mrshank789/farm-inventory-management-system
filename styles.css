@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg\ 2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #fff; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgba(40, 38, 38, 0.347);
+    border-radius: 8px;
+    position: center;
+}
+h1 {
+    text-align: center;
+    color: #ece6e6;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.dashboard-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 22%;
+}
+
+.dashboard-item h2 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.dashboard-item p {
+    font-size: 24px;
+    color: #333;
+}
+
+.dashboard-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dashboard-links a {
+    background-color: #af784c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.dashboard-links a:hover {
+    background-color: #45a049;
+}
+.dashboard-button {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.dashboard-button .btn {
+    background-color: #d9cc56;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.dashboard-button .btn:hover {
+    background-color: #45a049;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/bg\ 2.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Change text color to ensure readability on the background */
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgba(40, 38, 38, 0.347); /* Dark overlay for better readability */
+    border-radius: 8px;
+    position: center;
+}
+
+h1 {
+    text-align: center;
+    color: #f9f8f8;
+}
+
+/* Dashboard Styling */
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.dashboard-item {
+    background-color: #e9e1e1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 22%;
+}
+
+.dashboard-item h2 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.dashboard-item p {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Dashboard Links */
+.dashboard-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.dashboard-links a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.dashboard-links a:hover {
+    background-color: #938a80;
+}
+
+/* Dashboard Button */
+.dashboard-button {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.dashboard-button .btn {
+    background-color: #252625;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.dashboard-button .btn:hover {
+    background-color: #45a049;
+}
+
+/* Logout Button */
+.logout-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #131212;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #131212;
+}
+
+.logout-button:active {
+    background-color: #121111;
+}
+
+.logout-button:focus {
+    outline: none;
+}
+
+/* Receipt Container */
+.receipt-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    color: #030303; 
+}
+
+/* Receipt Title */
+.receipt-container h2 {
+    text-align: center;
+    color: #4CAF50; /* Green color for the receipt title */
+    margin-bottom: 20px;
+}
+
+/* Receipt Details */
+.receipt-container p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Receipt Labels (Bolded text) */
+.receipt-container p strong {
+    color: #555; /* Slightly lighter color for labels */
+}
+
+/* Receipt Footer (Optional) */
+.receipt-container .receipt-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #090808; 
+}
+
+/* Print Button (if you want to add it) */
+.print-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.print-button:hover {
+    background-color: #45a049;
+}
+
+.print-button:active {
+    background-color: #3e8e41;
+}
+
+.print-button:focus {
+    outline: none;
+}
+
+
+.logout-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.logout-button:active {
+    background-color: #ac2925;
+}
+
+.logout-button:focus {
+    outline: none;
+}
